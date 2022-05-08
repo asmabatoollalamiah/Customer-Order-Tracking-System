@@ -5,6 +5,7 @@ import Orders from "./Orders";
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import { useParams } from "react-router-dom";
+import HomeNav from './home_nav';
 
 function CustomerDetails(props) {
     const location = useLocation()
@@ -88,6 +89,7 @@ function CustomerDetails(props) {
             <div className="flex-vertical" style={{ marginLeft: "20px" }}>
 
                 <header>
+                    <HomeNav/>
                     <h1>Customer Details</h1>
                 </header>
              

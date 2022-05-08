@@ -3,6 +3,7 @@ import OrderDetails from "./OrderDetails";
 import { Link } from 'react-router-dom';
 import { useLocation } from "react-router-dom";
 import axios from 'axios';
+import HomeNav from "./home_nav";
 
 function Orders(props) {
   const location = useLocation()
@@ -37,6 +38,7 @@ function Orders(props) {
     <React.Fragment>
       <div className="flex-vertical" style={{ marginLeft: "20px" }}>
         <header>
+          <HomeNav/>
           <h1>Order Lists</h1>
         </header>
         <table>

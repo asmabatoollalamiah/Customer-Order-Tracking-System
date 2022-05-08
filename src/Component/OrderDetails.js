@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import axios from 'axios';
+import HomeNav from "./home_nav";
 
 function OrderDetails(props) {
 
@@ -83,6 +84,7 @@ function OrderDetails(props) {
       <div className="flex-vertical" style={{ marginLeft: "20px" }}>
 
         <header>
+          <HomeNav/>
           <h1>Orders Details</h1>
           <div dangerouslySetInnerHTML={{__html: count}}/>
         </header>
