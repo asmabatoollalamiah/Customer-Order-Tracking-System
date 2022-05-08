@@ -1,6 +1,6 @@
 # Customer-Order-Tracking-System
 
- Customer Order tracking system is an application through which User can perform the below tasks.
+ Customer Order tracking system is a React JS Single Page Application application through which User can perform the below tasks.
 
 
  1)Customer Order tracking will display all the customers on the UI
